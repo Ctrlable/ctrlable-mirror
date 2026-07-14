@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ctrlable Mirror",
+        "description": "This adds the Mirror controller. Open the Mirror panel in the sidebar to paste your license key and link your fixtures."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Ctrlable Mirror is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ctrlable Mirror license",
+        "description": "Paste the license key issued for this installation. You can also manage links and the license from the Mirror panel: {panel}",
+        "data": {
+          "license_key": "License key"
+        }
+      }
+    }
+  }
+}
